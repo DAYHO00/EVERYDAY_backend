@@ -12,7 +12,7 @@ public class Member {
     private Long id;
     
     private String name;
-    
+    private Integer age;
     protected Member() {
     }
 
@@ -22,6 +22,6 @@ public class Member {
 
     @Override
     public String toString() {
-        return "Member{id=" + id + ", name='" + name + "'}";
+        return "Member{id=" + id + ", name='" + name + "', age=" + age + "}";
     }
 }
